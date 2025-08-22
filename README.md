@@ -3,8 +3,6 @@
 A simple and responsive **Hotel Management System** built with **HTML, CSS, and JavaScript**.  
 This project demonstrates a hotel website with features like **room listings, booking, services, and contact information**.  
 
-![Main Screenshot](assets/homepage.png)
-
 ---
 
 ## ✨ Features  
