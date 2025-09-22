@@ -58,5 +58,50 @@ Hotel-backend/
 └─ uploads/ (.gitkeep)
  ```
 
+
+### 🔹 Frontend Setup (Client-side)
+1. Clone the client repository:
+   ```bash
+   git clone https://github.com/your-username/Hotel-Frontend.git
+   cd Hotel-Frontend
+    ```
+2. Install dependencies:
+   ```bash
+    npm install
+   ```
+3. Setup environment variablesSetup environment variables:
+    ```bash
+    VITE_API_URL=http://localhost:5000/api
+    ==========================
+   ```
+4. Start development server:
+   ```bash
+   npm start
+   ```
+
+### 🔹 Backend Setup (Server-side)
+1. Clone the server repository:
+   ```bash
+   git clone https://github.com/tonni59/QuickCart-Server-Side.git
+   cd QuickCart-Server-Side
+    ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a .env file in the root and add:
+   ```bash
+    PORT=5000
+   NODE_ENV=development
+   MONGO_URI=mongodb://localhost:27017/hotel_db
+   JWT_SECRET=your_jwt_secret
+   CLIENT_URL=http://localhost:3000
+
+   ```
+4. Start the server:
+   ```bash
+   npm run dev
+
+   ```
 ## 🚀 Deployment  
 https://hotel-management-system-pearl-delta.vercel.app
